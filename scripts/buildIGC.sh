@@ -43,7 +43,7 @@ else
 fi
 if [ -z ${IGC_SHA+x} ]; then
     echo "[Build Status] IGC_SHA is unset, use default master";
-    OWN_CMAKE_FLAGS="master"
+    IGC_SHA="master"
 else
     echo "[Build Status] IGC_SHA = ${IGC_SHA}"
 fi
